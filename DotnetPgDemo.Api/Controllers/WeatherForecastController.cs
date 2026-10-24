@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace DotnetPgDemo.Api.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("[controller]")] // https //localhost:5068/weatherforecast
+
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries =
